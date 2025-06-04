@@ -1,6 +1,9 @@
 body, main{
     display: flex;
 }
+header{
+    display: flex;
+}
 
  body{
     flex-direction: column;
