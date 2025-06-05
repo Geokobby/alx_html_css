@@ -1,0 +1,3 @@
+Driven by my ambition to become a software engineer, I enrolled in the ALX frontend development program. It has been a challenging yet rewarding journey. Throughout this course, we have learned about JavaScript, CSS, and HTML.
+
+In our current assignment, we are tasked with designing a step-by-step webpage guide that showcases what we've learned so far using HTML and CSS. This challenge is an opportunity to test our skills, and I am ready to rise to the occasion, as we embrace the motto, "do hard things" with ALX. Let's go!
