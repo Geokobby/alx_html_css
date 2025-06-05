@@ -8,7 +8,8 @@
 /* The header */
 #head_firstbanner {
     background-image: url(Assets/Image/Object.png);
-     background-size: cover;
+   background-size: cover;
+   height: 1093px;
 }
 
 header section{
@@ -98,8 +99,27 @@ strong{
     display: flex;
     justify-content: center;
     justify-content: space-around;
+   
 }
 
 #bruce{
     border-radius: 20em;
+}
+
+.pros_names{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Source Sans Pro;
+    margin: .5em;
+}
+
+.sub_title{
+    color: white;
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-size: 16px;
+   
+    
+    
 }
