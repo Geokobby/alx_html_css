@@ -73,6 +73,7 @@ main section button{
     border-radius: 22px;
     padding: 1.2em;
     margin-top: 3em;
+    cursor: pointer;
 }
 
 /* Learn from the pros seation */
@@ -176,12 +177,49 @@ strong{
     margin-bottom: 2em;
 }
 
+
 #videos{
 display: flex;
 justify-content: center;
-justify-content: space-around;
+/* justify-content: space-around; */
+gap: 1em;
 margin-inline: 1em;
+cursor: pointer;
 }
+
+.video_behind {
+    background-image: url(Assets/Image/9.png);
+    padding: 2.5em 0 4em 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.video_behind2 {
+    background-image: url(Assets/Image/7.png);
+    padding: 2.5em 0 4em 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.video_behind3 {
+    background-image: url(Assets/Image/8.png);
+    padding: 2.5em 0 4em 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.video_behind4{
+    background-image:url(Assets/Image/6.png);
+    padding: 2.5em 0 4em 0;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+}
+
+
 
 .smile_title{
     font-size: 16px;
