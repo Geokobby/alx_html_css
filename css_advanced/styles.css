@@ -12,17 +12,19 @@
    height: 1093px;
 }
 
-header section{
+.logo_nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 60%;
     padding: 1.5em;
+    /* border: solid 1px red; */
 }
 
 #homeLogo{
     width: 75%;
 }
 
-header section nav ul{
+.nav{
     display: flex;
     list-style: none; 
     gap: 1em ;  
@@ -62,7 +64,7 @@ main section h1{
     color: white;
 }
 
-main section button{
+ button{
     background-color: #C271FF;
     box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.1); 
     border: none;
@@ -151,6 +153,8 @@ strong{
 
 .quote_text{
     font-weight: lighter;
+    
+
 }
 
 .all_quote_text{
@@ -256,4 +260,111 @@ cursor: pointer;
     color: #C271FF;
     font-size: 14px;
     font-weight: 500;
+}
+
+/* Membership */
+
+#free{
+    background-color: #071629;
+    padding-block: 5em;
+    font-family: Source Sans Pro;
+    text-align: center;
+}
+
+.freeM{
+    font-weight: lighter;
+    text-align: center; 
+    font-size: 32px;
+    color: white;
+    padding-bottom: 2em;
+}
+#membership{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 1em;
+    padding-inline: 3em;
+    color: white;  
+    
+}
+
+.member_title{
+    padding-block: 1em;
+}
+
+.member_content{
+   
+    padding-inline: 3em;
+    font-size: 14px;
+    font-weight: lighter;
+    color:white;
+    margin-bottom: 3em;
+}
+
+/* FAQ */
+
+#askQuestion{
+    /* text-align: center; */
+    font-family: Source Sans Pro;
+    text-align: left;
+    
+}
+
+#FreqQuest{
+    display: flex;
+    justify-content: center;
+}
+
+.askQ{
+    color: #071629;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-block: 1em;
+    text-align: center;
+}
+
+.Quest_content{
+    margin: 4em 10em 4em 10em;
+}
+
+.Qest_title{
+    margin-bottom: 1em;
+    font-size: 16px;
+    color: #071629;
+}
+
+.qest_text{
+    font-size: 14px;
+    color: #979797;  
+}
+
+
+footer {
+    font-family: Source Sans Pro;
+    text-align: center;
+    background-color: #071629;
+    padding-block: 2em;
+    font-family: Source Sans Pro;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    gap: 60%;
+   
+   
+
+}
+
+.social_icon{
+    width: 1.5em;
+}
+
+#right{
+    color: #979797;
+    font-size: 12px;
+    font-weight: normal;
 }
