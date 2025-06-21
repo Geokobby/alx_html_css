@@ -5,6 +5,14 @@
     margin: 0;
 }
 
+.icons{
+    font-family:holberton_school-icon;
+    font-size: 61px;
+    color: #FF6565;
+    margin:.2em;
+}
+
+
 #first_banner {
     background-image: url(images/headphones_hero_1.jpg);
     background-repeat: no-repeat;
@@ -95,8 +103,53 @@ button:hover {
 
 }
 
+
+/* div with icons */
+.div_title{
+
+    margin-bottom: 1em;
+}
+.div_icons{
+    margin: 10em 0 5em 0;
+    /* border: solid 1px red; */
+    width: 50%;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    margin-inline:auto ;
+    
+}
+
+.icon_title{
+    margin-bottom: .5em;
+}
+
+.icons_content{
+    display: flex;
+   margin-inline: auto;
+    width: 90%;
+    margin-bottom: 5em;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: lighter;
+    
+}
+
+.icon_div{
+    width: 70%;
+    text-align: center;
+    /* border: solid 1px red; */
+}
+
+.icons_text{
+    width: 70%;
+    margin-inline: auto;
+    text-align: center;
+}
 @media screen and (max-width: 480px) {
 
+    /* First content with header */
     #first_banner {
         /* max-width:1000px ; */
         text-align: center;
@@ -116,4 +169,20 @@ button:hover {
         width: 100%;
        
     }
+
+
+    /* Divs with icons */
+        .icons_content{
+            display: block;
+        }
+    .div_icons{
+        width: 80%;
+    }
+        .icon_div{
+            width: 100%;
+        }
+
+        .icons_text{
+            width: 50%;
+        }
 }
