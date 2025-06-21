@@ -7,8 +7,12 @@
 
 #first_banner{
     background-image: url(images/headphones_hero_1.jpg);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    background-position: center;
     background-size: cover;
+    /* background-size:auto; */
+    /* background-clip: content-box; */
+    
 }
 
 /* Logo and Navigation */
@@ -54,7 +58,9 @@ li{
     color: white;
     font-family: Source Sans Pro;
     margin-inline: auto;
-    width: 637px;
+    /* border: solid 1px red; */
+    width: 50%;
+    /* width: 637px; */
 }
 
 .inner_first_content{
@@ -83,4 +89,25 @@ button:hover{
     font-size: 16px;
     padding-bottom: 5em;
     
+}
+
+@media screen and (max-width: 480px) {
+    
+    #first_banner{
+       /* max-width:1000px ; */
+       text-align: center;
+    border: solid 1px red;
+       
+        
+    }
+    .header, .nav_list{
+        display: block;
+        border: solid 1px red;
+        padding: 1em 0 5em 0;
+}
+
+    .inner_content{
+        width: 100%;
+        border: solid 1px red;
+    }
 }
