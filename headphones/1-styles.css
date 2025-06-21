@@ -1,22 +1,22 @@
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
     margin: 0;
 }
 
-#first_banner{
+#first_banner {
     background-image: url(images/headphones_hero_1.jpg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* background-size:auto; */
     /* background-clip: content-box; */
-    
+
 }
 
 /* Logo and Navigation */
-.header{
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,34 +26,38 @@
     /* border: solid 1px red; */
 
 }
+
 .nav_list {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 2em;
 }
-.logo{
+
+.logo {
     width: 161px;
     /* border: 1px solid red; */
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
     font-size: 12px;
-    font-family:Source Sans Pro;
+    font-family: Source Sans Pro;
     font-weight: bold;
 }
-li{
+
+li {
     list-style: none;
 }
 
-.nav_link:hover{
+.nav_link:hover {
     color: #FF6565;
 }
 
 
 /* Inner content for first banner */
-.inner_content{
+.inner_content {
     text-align: center;
     color: white;
     font-family: Source Sans Pro;
@@ -63,14 +67,14 @@ li{
     /* width: 637px; */
 }
 
-.inner_first_content{
+.inner_first_content {
     margin-bottom: 2em;
 }
 
-button{
+button {
     border: none;
     color: white;
-    background-color:#FF6565 ;
+    background-color: #FF6565;
     padding: 1em;
     border-radius: 10em;
     font-family: Source Sans Pro;
@@ -79,33 +83,37 @@ button{
     margin-bottom: 2em;
 }
 
-button:hover{
+button:hover {
     opacity: 0.9;
     cursor: pointer;
 }
 
-.inner_second_content{
+.inner_second_content {
     font-weight: lighter;
     font-size: 16px;
     padding-bottom: 5em;
-    
+
 }
 
 @media screen and (max-width: 480px) {
-    
-    #first_banner{
-       /* max-width:1000px ; */
-       text-align: center;    
+
+    #first_banner {
+        /* max-width:1000px ; */
+        text-align: center;
+      
+
+
     }
 
-    .header, .nav_list{
+    .header,
+    .nav_list {
         display: block;
-        /* border: solid 1px red; */
+        
         padding: 1em 0 5em 0;
-}
+    }
 
-    .inner_content{
+    .inner_content {
         width: 100%;
-        /* border: solid 1px red; */
+       
     }
 }
