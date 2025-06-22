@@ -113,7 +113,7 @@ button:hover {
 .div_icons {
     margin: 10em 0 5em 0;
     /* border: solid 1px red; */
-    width: 50%;
+   
     font-family: Source Sans Pro;
     font-size: 16px;
     font-weight: lighter;
@@ -125,7 +125,10 @@ button:hover {
 .icon_title {
     margin-bottom: .5em;
 }
-
+.icon_title_text{
+    width: 50%;
+    margin-inline: auto;
+}
 .icons_content {
     display: flex;
     margin-inline: auto;
@@ -149,6 +152,41 @@ button:hover {
     text-align: center;
 }
 
+
+/* Our results section */
+.our_results {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-size:auto; */
+    /* background-clip: content-box; */
+    color: white;
+    font-family: Source Sans Pro;
+    text-align: center;
+    
+}
+
+.div_results{
+    padding-top: 10em;
+    
+}
+
+#pentagone_div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+   
+}
+.percent{
+    width: 190px;
+    position: relative;
+}
+
+.percent{
+    position: absolute;
+    
+}
 @media screen and (max-width: 480px) {
 
     /* Homepage*/
