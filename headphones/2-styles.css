@@ -175,18 +175,31 @@ button:hover {
 #pentagone_div{
     display: flex;
     justify-content: space-around;
-    margin-top: 2em;
+    margin-top: 4em;
+    padding-bottom: 5em;
    
 }
-.percent{
-    width: 190px;
+.pentagone{
     position: relative;
 }
 
 .percent{
+ position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 46px;
+}
+
+.pent_text{
     position: absolute;
+    bottom: 30px;
+     left: 50px;
+     font-size: 14px;
+     
     
 }
+
+
 @media screen and (max-width: 480px) {
 
     /* Homepage*/
