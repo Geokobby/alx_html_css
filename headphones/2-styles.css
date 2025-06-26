@@ -236,11 +236,9 @@ button:hover {
         display: block;
     }
 
-    .div_icons {
-        width: 0%;
-    }
+    
 
-    .icon_div, .icon_title_text {
+        .div_icons, .icon_div, .icon_title_text {
         width: 100%;
     }
 
