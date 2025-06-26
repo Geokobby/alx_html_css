@@ -226,12 +226,14 @@ button:hover {
     outline: 0;
    padding: 10px 5px;
    width: 20%; 
+  
 }
 
 ::placeholder{
     color: black;
     font-weight: 800;
     font-family: Source Sans Pro;
+   
 }
 
 @media screen and (max-width: 480px) {
@@ -297,5 +299,7 @@ button:hover {
         bottom: 20px;
         right: 40px;
     }
-
+    .inputs{
+        width: 80%;
+    }
 }
