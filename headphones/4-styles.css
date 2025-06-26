@@ -1,0 +1,303 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.icons {
+    font-family: holberton_school-icon;
+    font-size: 61px;
+    color: #FF6565;
+    margin: .2em;
+}
+
+
+#first_banner {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-size:auto; */
+    /* background-clip: content-box; */
+
+}
+
+/* Logo and Navigation */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    padding: 1em 0 20em 0;
+    /* min-height: 800px; */
+    /* border: solid 1px red; */
+
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+}
+
+.logo {
+    width: 161px;
+    /* border: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+.nav_link:hover {
+    color: #FF6565;
+}
+
+
+/* Homepage*/
+.inner_content {
+    text-align: center;
+    color: white;
+    font-family: Source Sans Pro;
+    margin-inline: auto;
+    /* border: solid 1px red; */
+    width: 50%;
+    /* width: 637px; */
+}
+
+.inner_first_content {
+    margin-bottom: 2em;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #FF6565;
+    padding: 1em;
+    border-radius: 10em;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    width: 162px;
+    margin-bottom: 2em;
+}
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.inner_second_content {
+    font-weight: lighter;
+    font-size: 16px;
+    padding-bottom: 5em;
+
+}
+
+
+/* What we do */
+.div_title {
+
+    margin-bottom: 1em;
+}
+
+.div_icons {
+    margin: 10em 0 5em 0;
+    /* border: solid 1px red; */
+
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    margin-inline: auto;
+
+}
+
+.icon_title {
+    margin-bottom: .5em;
+}
+
+.icon_title_text {
+    width: 50%;
+    margin-inline: auto;
+}
+
+.icons_content {
+    display: flex;
+    margin-inline: auto;
+    width: 90%;
+    margin-bottom: 5em;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+.icon_div {
+    width: 70%;
+    text-align: center;
+    /* border: solid 1px red; */
+}
+
+.icons_text {
+    width: 70%;
+    margin-inline: auto;
+    text-align: center;
+}
+
+
+/* Our results section */
+.our_results {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-size:auto; */
+    /* background-clip: content-box; */
+    color: white;
+    font-family: Source Sans Pro;
+    text-align: center;
+
+
+
+}
+
+.div_results {
+    padding-top: 10em;
+
+}
+
+#pentagone_div {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 4em;
+    padding-bottom: 5em;
+}
+
+.pentagone {
+    position: relative;
+
+}
+
+.percent {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    font-size: 46px;
+
+
+}
+
+.pent_text {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    font-size: 14px;
+
+}
+
+.pent {
+    width: 190px;
+}
+
+/* forms */
+#forms {
+    display: block;
+}
+
+.form_div {
+    margin-bottom: 1.5em;
+}
+
+.inputs {
+    border: 0;
+    border-bottom: solid 1px gray;
+    outline: 0;
+    padding: 10px 5px;
+    width: 20%;
+
+}
+
+::placeholder {
+    color: black;
+    font-weight: 800;
+    font-family: Source Sans Pro;
+
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Homepage*/
+    #first_banner {
+        /* max-width:1000px ; */
+        text-align: center;
+
+
+
+    }
+
+    .header,
+    .nav_list {
+        display: block;
+
+        padding: 1em 0 5em 0;
+    }
+
+    .inner_content {
+        width: 100%;
+
+    }
+
+
+    /* what we do */
+    .icons_content {
+        display: block;
+    }
+
+
+
+    .div_icons,
+    .icon_div,
+    .icon_title_text {
+        width: 100%;
+    }
+
+    .icons_text {
+        width: 50%;
+    }
+
+    #pentagone_div {
+        display: block;
+        gap: 5em;
+
+    }
+
+    .pentagone {
+
+        margin-bottom: 3em;
+    }
+
+    .percent {
+
+        top: 50px;
+        right: 50px;
+    }
+
+    .pent_text {
+
+        bottom: 20px;
+        right: 40px;
+    }
+
+}
